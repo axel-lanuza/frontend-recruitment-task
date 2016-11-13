@@ -1,0 +1,65 @@
+@import url(_reset.css);
+@font-face {
+  font-family: DejaVuSans;
+  src: url("../fonts/DejaVuSans.ttf"); }
+html {
+  font-size: 16px; }
+
+body {
+  font-family: DejaVuSans, Helvetica, Arial, sans-serif;
+  font-size: 62.5%; }
+
+.container {
+  max-width: 940px; }
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 15px; }
+  .navbar .navbar-brand {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase; }
+  .navbar .glyphicon {
+    height: 50px;
+    padding: 15px;
+    line-height: 20px;
+    font-size: 2.5em;
+    color: #1874BA; }
+  .navbar .navigation {
+    height: 100%;
+    width: 50%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    .navbar .navigation__radio-buttons {
+      font-size: 1.5em;
+      font-weight: bold; }
+      .navbar .navigation__radio-buttons input[type=radio] {
+        transform: scale(1.2);
+        padding: 5px 10px; }
+        .navbar .navigation__radio-buttons input[type=radio]:last-of-type {
+          margin-left: 15px; }
+    .navbar .navigation__sorting {
+      font-size: 1.5em;
+      font-style: italic; }
+      .navbar .navigation__sorting a {
+        color: #1874BA;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 5px; }
+        .navbar .navigation__sorting a:hover {
+          color: #AAB0AF;
+          text-decoration: underline; }
+  .navbar .search input {
+    background-color: #FBFBFB; }
+    .navbar .search input:focus {
+      background-color: #FFFFFF; }
+  .navbar .search button {
+    color: #A7A9AC;
+    text-transform: uppercase;
+    border: 1px solid #A7A9AC;
+    border-radius: 0px; }
+
+/*# sourceMappingURL=application.css.map */
